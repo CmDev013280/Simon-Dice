@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Dice</title>
+</head>
+
+<header>
+    <div>
+        <center>
+            <h1>Game</h1>
+            <h2>Simon Dice</h2>
+        </center>
+    </div>
+</header>
+<body>
+    <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+    </div>
+</body>
+
+<footer>
+    <div>
+        <center>
+            <p>Powered By Cesar Mora</p>
+        </center>
+    </div>
+</footer>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="Main.js"></script>
+</html>
